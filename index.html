@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mastermind</title>
+</head>
+
+<body>
+    <main>
+        <h1>mastermind</h1>
+        <div id="container">
+            <div id="left-panel">
+                <div>
+                    <div id="palette">
+                        <div class="color-palette" style="background-color: blue;"></div>
+                        <div class="color-palette" style="background-color: green;"></div>
+                        <div class="color-palette" style="background-color: yellow;"></div>
+                        <div class="color-palette" style="background-color: red;"></div>
+                        <div class="color-palette" style="background-color: cyan;"></div>
+                        <div class="color-palette" style="background-color: magenta;"></div>
+                        <div class="color-palette" style="background-color: pink;"></div>
+                        <div class="color-palette" style="background-color: brown;"></div>
+                    </div>
+                    <div id="selected-color"></div>
+                    <button id="btn-validation" type="button">Validez</button>
+                </div>
+
+                <div id="bottom" style="display: none;">
+                    <div>
+                        <p>Solution</p>
+                        <div id="solutions">
+
+                        </div>
+                        <button id="btn-restart" type="button">Rejouez</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <section id="tries">
+
+            </section>
+        </div>
+    </main>
+
+    <script src="js/utilities.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
