@@ -75,7 +75,7 @@ function getClues(row, wellPlaced, present){
             clues[i].style.backgroundColor = 'black'
             wellPlaced--
         } else if(present > 0){
-            clues[i].style.backgroundColor = 'blue'
+            clues[i].style.backgroundColor = 'grey'
             present--
         } else {
             break
